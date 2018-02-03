@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AnnotationSpringMVC:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="com.yx.A.war">
+      <element id="artifact" artifact-name="AnnotationSpringMVC:war exploded" />
+    </root>
+  </artifact>
+</component>

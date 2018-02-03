@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<h2>Hello World!</h2>
+<a href="/hello/myHandle">RequestMapping</a></br>
+<a href="/hello/action">GET&&POST</a></br>
+<a href="/hello/ANT/蓝忘机/魏无羡">ANT风格传参</a></br>
+<a href="/hello/regx/100-205">正则传参</a></br>
+<h3>表单传多个值</h3>
+<form name="form1" id="form1" method="post" action="/data/form">
+    用户名<input type="text" name="username"><br/>
+    密码<input type="text" name="password"><br/>
+    <input type="submit" value="提交">
+</form>
+<a href="/data/param?myName=蓝忘机">@RequestParam传单个值</a><br/>
+<a href="/data/param2?mySex=男">@RequestParam传单个值</a><br/>
+<a href="/data/param3?name=二哥哥&name=含光君">@RequestParam传多个值</a><br/>
+<a href="/data/cookie">cookie</a><br/>
+<a href="/data/cookie2">cookie2</a><br/>
+<a href="/data/session">session</a><br/>
+<h3>ModeAttribute[po]前->后传值</h3>
+<form id="form2" name="form2" method="post" action="/data/attr1">
+    用户名<input type="text" name="username"><br/>
+    密码<input type="text" name="password"><br/>
+    <input type="submit">
+</form>
+<a href="/data/attr2"><h3>ModeAttribute[po]后->前传值</h3></a><br>
+<h3>ModeAttribute[po]前->后传值的键</h3>
+<form id="form4" name="form4" commandName="user3" method="post" action="/data/attr3" >
+    用户名<input type="text" name="username"><br/>
+    密码<input type="text" name="password"><br/>
+    <input type="submit">
+</form>
+<a href="/data/list"><h3>List传值</h3></a>
+<a href="/data/myMap"><h3>Map传值</h3></a>
+</body>
+</html>
